@@ -725,7 +725,7 @@ class SVDParser:
             name=_get_text(peripheral_node, 'name'),
             version=_get_text(peripheral_node, 'version'),
             description=_get_text(peripheral_node, 'description'),
-            alternate_peripheral=_get_text(peripheral_node, 'alternaPeripheral'),
+            alternate_peripheral=_get_text(peripheral_node, 'alternatePeripheral'),
             group_name=_get_text(peripheral_node, 'groupName'),
             prepend_to_name=_get_text(peripheral_node, 'prependToName'),
             append_to_name=_get_text(peripheral_node, 'appendToName'),
